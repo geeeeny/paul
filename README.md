@@ -36,6 +36,10 @@
 ## TO-BE 조직 (Vertically-Aligned)
   ![image](https://user-images.githubusercontent.com/487999/79684159-3543c700-826a-11ea-8d5f-a3fc0c4cad87.png)
 
+## Event Storming 결과  
+   MSAEz 로 모델링한 이벤트스토밍 결과:   
+   https://labs.msaez.io/#/storming/fc605fea1fa7b66445d0a7dff5f51e34   
+   ![image](https://user-images.githubusercontent.com/121933672/223629043-bf4842c4-dadc-4b23-a3c9-ce44fc8a6207.png)
 
 ## Saga (Pub-Sub)  
 Order 서비스에서 OrderPlaced 이벤트를 발행하면, Payment 서비스에서 OrderPlaced 이벤트를 수신하여 StartPayment 작업을 실행한다. 
